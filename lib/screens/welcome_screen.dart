@@ -14,7 +14,7 @@ class WelcomeScreen extends StatefulWidget {
 class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProviderStateMixin {
   AnimationController controller;
   Animation animation;
-  Animation animation2;
+  Animation animation3;
 
   @override
   void initState() {
@@ -24,7 +24,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
           vsync: this,
     );
     animation = CurvedAnimation(parent: controller, curve: Curves.bounceInOut);
-    animation2 = ColorTween(begin: Colors.blueGrey, end: Colors.grey.shade300).animate(controller) ;
+    animation3 = ColorTween(begin: Colors.blueGrey, end: Colors.grey.shade300).animate(controller) ;
     controller.forward();
     controller.addStatusListener((status) {
       print(status);
@@ -43,7 +43,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: animation2.value,
+      backgroundColor: animation3.value,
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(

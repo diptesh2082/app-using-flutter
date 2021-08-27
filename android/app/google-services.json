@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "706977114187",
+    "project_id": "my-first-project-3a3a8",
+    "storage_bucket": "my-first-project-3a3a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706977114187:android:1cc6a6c4cd22f31a9c05ce",
+        "android_client_info": {
+          "package_name": "co.appbrewery.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706977114187-n0re8drckm4f2f18ofisdrfalups32gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu3KYrXeDAKluKeyJ7X2-nIijs5lrO15o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706977114187-n0re8drckm4f2f18ofisdrfalups32gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706977114187:android:a7408207104710189c05ce",
+        "android_client_info": {
+          "package_name": "co.diptesh.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706977114187-n0re8drckm4f2f18ofisdrfalups32gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu3KYrXeDAKluKeyJ7X2-nIijs5lrO15o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706977114187-n0re8drckm4f2f18ofisdrfalups32gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
